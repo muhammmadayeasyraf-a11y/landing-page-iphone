@@ -128,3 +128,33 @@ text-align: center;
     width: 100%;
     height: auto;
 }
+/* ==== STYLING FEATURES SECTION==== */
+.features-section{
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.feature-grid{
+    display: flex;
+    gap: 30px;
+}
+.feature-card{
+    background-color: #f5f5f7;
+    padding: 40px;
+    border-radius: 20px;
+    flex:1; /* Membuat ketiga kartu memiliki lebar yang sama */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card-hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0,1);
+}
+.feature-card img{
+    height: 60px;
+    margin-bottom 20px;
+}
